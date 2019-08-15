@@ -6,48 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-    .btn{
-        text-decoration: none;
-        background-color: #ecf0f1;
-        color: #7f8c8d;
-        padding: 10px 20px;
-        border-radius: 10px;
+    *{
+        border: 1px solid red;
     }
-    
-    
-    .btn.btn-red{
-        background-color: #e74c3c;
-        color: #fff;
-    }
-    .btn-red:hover{
-        background-color: #c0392b;
-    }
-    .btn.btn-blue{
-        background-color: #3498db;
-        color: #fff;
-    }
-    .btn-blue:hover{
-        background-color: #2980b9;
-    }
-    .btn.btn-green{
-        background-color: #1abc9c;
-        color: #fff;
-    }
-    .btn-green:hover{
-        background-color: #16a085;
-    }
-
-    body{
-        padding: 10px;
+    header + main{
+        border: 5px solid blue;
     }
     
     </style>
-    
 </head>
 <body>
-    <a href="" class="btn btn-red">item 1</a>
-    <a href="" class="btn btn-blue">item 2</a>
-    <a href="" class="btn btn-green">item 3</a>
-    <a href="" class="btn">item 1</a>
+    <header id="header">
+            <div>
+                <div ><a href="" class="logomarca">Logomarca</a></div>
+            </div>
+    </header>
+    <main id="main">
+        <section>
+            <h1>Conteúdo</h1>
+            <p>Um texto qualquer</p>
+        </section>
+    </main>
+    <footer id="footer">
+        <div>
+            <p>&copy; Todos os direitor reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
