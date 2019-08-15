@@ -1,34 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        /*
-        prioridades css
-        tag
-        classe - substitui a  tag
-        id - substutui a clase e a tag
-        */
-        #header a{
-            color: green;
+    
+        #header{
+            background: red;
         }
-        #header div div a{
-            background-color: fuchsia;
-            color: gray;
+        #footer{
+            background: green;
         }
-        #header div div a{
-            color: blueviolet;
+        .logomarca{
+            background: blue;
         }
-        .header a{
-            color: blue;
+        #footer > .logomarca{
+            color: #ffffff
         }
-        header a{
-            color: red;
-        }
-
 
     </style>
 </head>
@@ -48,6 +38,8 @@
         <div>
             <p class="logomarca">&copy; Todos os direitor reservados</p>
         </div>
+        <a class="logomarca">&copy; Todos os direitor reservados</a>
+        
     </footer>
 </body>
 </html>
