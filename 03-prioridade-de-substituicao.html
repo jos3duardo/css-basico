@@ -6,29 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        a{
-            color: blueviolet
+        /*
+        prioridades css
+        tag
+        classe - substitui a  tag
+        id - substutui a clase e a tag
+        */
+        #header a{
+            color: green;
         }
-        a:hover{
-            color: red
+        #header div div a{
+            background-color: fuchsia;
+            color: gray;
         }
-        a:active{
-            color: yellowgreen
+        #header div div a{
+            color: blueviolet;
         }
-
-        input:focus-within{
+        .header a{
             color: blue;
         }
-        div:focus-within{
-            background-color: gray;
+        header a{
+            color: red;
         }
+
+
     </style>
 </head>
 <body>
     <header id="header">
         <div>
-            <div ><a class="logomarca">Logomarca</a></div>
-            <input type="text">
+            <div ><a href="" class="logomarca">Logomarca</a></div>
         </div>
     </header>
     <main id="main">
