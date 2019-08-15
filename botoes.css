@@ -1,0 +1,38 @@
+.btn{
+    text-decoration: none;
+    background-color: #ecf0f1;
+    color: #7f8c8d;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn-red{
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.btn-red:hover{
+    background-color: #c0392b;
+}
+
+.btn-blue{
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-blue:hover{
+    background-color: #2980b9;
+}
+
+.btn-green{
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.btn-green:hover{
+    background-color: #16a085;
+}
+
+body{
+    padding: 10px;
+}
