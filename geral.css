@@ -12,8 +12,19 @@ body{
     padding: 20px 60px 90px 120px;
     border: 3px solid #000;
     border-radius: 10px;
+    position: relative;
 }
 
 #display * {
     display: inline;
+}
+
+#modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    color: #fff;
 }
