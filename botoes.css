@@ -1,11 +1,17 @@
-a[class*="btn"]{
+a[class*="btn"], .btn{
     display: inline-block;
     text-decoration: none;
     background-color: #ecf0f1;
     color: #7f8c8d;
     padding: 10px 20px;
     border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
+a[class*="btn"]:host, .btn:hover{
+    transition: all .5s ease;
+}
+
 
 .btn-red{
     background-color: #e74c3c !important;
